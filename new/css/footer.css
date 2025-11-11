@@ -1,0 +1,47 @@
+.missKendraSchools {
+  color: #e7f1f1;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+.btnSubscribe {
+  color: #243b80;
+  text-align: center;
+  font-family: Geologica;
+  font-size: 12.397px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 12.784px;
+  background: #e7f1f1;
+  width: 198px;
+}
+
+footer h3 {
+  color: #e7f1f1;
+  font-family: Geologica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+footer p {
+  color: #e7f1f1;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px;
+}
+
+footer a {
+  color:  #e7f1f1; 
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19px; 
+}

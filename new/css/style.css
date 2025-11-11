@@ -1,0 +1,320 @@
+body {
+  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+}
+@font-face {
+  font-family: "Gill Sans";
+  src: url("./GillSans/Gill Sans Light.otf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("./GillSans/Gill Sans.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("./GillSans/Gill Sans Bold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("./GillSans/Gill Sans Heavy.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("./GillSans/GillSansUltraBold.ttf") format("truetype");
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.bgWhiteTop {
+  border-radius: 0px 0px 24px 24px;
+  background: #fff;
+  box-shadow: 0px 12px 16px -5px rgba(0, 0, 0, 0.1);
+}
+.beWithYour {
+  color: #fff;
+  font-family: Gill Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53.291px;
+}
+
+.registerToday {
+  color: #fff;
+  font-family: Gill Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.527px;
+}
+.btnSaving {
+  color: #fff;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 53.291px;
+}
+
+.scheduleACampus {
+  color: #fff;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.527px;
+  border-radius: 33px;
+  background: #b2d13b;
+}
+
+.tinicitiIsAModernDay {
+  width: 520px;
+  max-width: 100%;
+  color: #fff;
+  font-family: Gill Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40.167px;
+}
+
+.thankYou {
+  width: 671px;
+  max-width: 100%;
+  color: #fff;
+  font-family: Gill Sans;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.thankYou span {
+  color: #fff;
+  font-family: Gill Sans;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer p {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #004c5a;
+}
+
+.weAreTheOnly {
+  width: 1160px;
+  max-width: 100%;
+  color: #004c5a;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 53.291px;
+}
+
+.boxBlue {
+  width: 515px;
+  height: 502px;
+  border-radius: 55px;
+  border: 3px solid #00a9d0;
+  background: #fff;
+}
+.boxBlue2{
+  height: 825px;
+}
+
+.boxBlue > div.header {
+  height: 100px;
+  border-bottom: 3px solid #00a9d0;
+}
+
+.blueTitle {
+  color: #00a9d0;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53.291px;
+}
+
+.boxDescription {
+  width: 463px;
+  color: #636363;
+  font-size: 27px;
+  font-family: Gill Sans;
+  font-weight: 300;
+  line-height: 29.98px;
+  word-wrap: break-word;
+}
+
+.boxDescription li {
+  list-style: disc;
+}
+
+.boxGreen {
+  width: 515px;
+  height: 502px;
+  border-radius: 55px;
+  border: 3px solid #b2d13b;
+  background: #fff;
+}
+
+.boxGreen2{
+  height: 825px;
+}
+
+.boxGreen > div.header {
+  height: 100px;
+  border-bottom: 3px solid #b2d13b;
+}
+
+.greenTitle {
+  color: #b2d13b;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53.291px;
+}
+
+.waSection {
+  width: 1089px;
+  max-width: 100%;
+  border-radius: 44px;
+  border: 3px solid #4e9450;
+}
+
+.weAreOpen {
+  color: #004c5a;
+  font-family: Gill Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.weAreOpen span {
+  color: #4e9450;
+  font-family: Gill Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.boxTitle {
+  border-radius: 55px 55px 0px 0px;
+  color: #fff;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 53.291px; /* 53.291px */
+}
+
+.boxTitle span {
+  color: #fff;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35.527px;
+}
+
+.boxFooter {
+  color: #fff;
+  text-align: center;
+  font-family: Gill Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 33.307px;
+  border-radius: 0 0 55px 55px;
+}
+.boxFooter.blue {
+  border: 3px solid #00a9d0;
+  background: #00a9d0;
+}
+
+.boxFooter div {
+  padding: 20px;
+}
+
+.boxFooter div.blue{
+  border-bottom:1px solid #3FC6E5;
+}
+
+.boxFooter div.green{
+  border-bottom:1px solid #C6E15C;
+}
+
+.boxFooter.green {
+  border: 3px solid #B2D13B;
+  background: #B2D13B;
+}
+.boxFooter b{
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1536px) {
+}
+
+@media screen and (max-width: 1535px) {
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 1279px) {
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (max-width: 1023px) {
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+  .thankYou{
+    width:100%;
+  }
+}
+
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (max-width: 639px) {
+}

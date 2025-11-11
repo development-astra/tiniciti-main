@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+
+.slick-slider {
+  position: relative;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%; /* Ajusta esto según sea necesario */
+  z-index: 10;
+  background-color: #000; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none; /* Remueve el borde si hay alguno */
+  border-radius: 50%; /* Botones circulares */
+  width: 42px; /* Ancho del botón */
+  height: 42px; /* Altura del botón */
+  font-size: 16px; /* Tamaño del texto dentro del botón */
+  transform: translateY(-50%); /* Alineación vertical */
+}
+
+.slick-prev {
+  left: 10px; /* Ajusta la posición horizontal */
+}
+
+.slick-next {
+  right: 10px; /* Ajusta la posición horizontal */
+}
+
+/* Personalización de la barra de desplazamiento */
+.slick-track {
+  display: flex;
+  align-items: center;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+/* Más personalizaciones si es necesario */
+
+@media screen and (min-width: 769px) {
+  .ribbon {
+    width: calc(100% + 30px)!important;
+  }
+}
+
+.font-['M_PLUS_Rounded_1c'] {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}

@@ -1,0 +1,14 @@
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/e988cbdd964080a5ebe22071b7046e4268284aa3|@/assets/images/nav/logo.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/0c772acf8e78d7ad6ffbb0f0b8d82eb1994c232a|@/assets/images/nav/menu-icon.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/0676e7991ee55cee2ae3c26f1ebbd854e682f5a3|@/assets/images/footer/footer-logo.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/42cf55287e3bf6ee846626ad58f0bffe7e9849e7|@/assets/images/footer/social-icons.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/7590cd1ede1c89165da996f6b76e1aa3c033f315|@/assets/images/home/hero-logo.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/df34dcb3824f73d0fa7c665b4d7f6f95bb1f6fd8|@/assets/images/home/hero-bg.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/fe67680d44641f56a79f88d9921a42e498268925|@/assets/images/home/mariana.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/e1cbce7b-0e27-47bd-a468-5218df903b7f|@/assets/images/home/geisimar.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/a0afe44d-8b0f-4f22-9991-de7df558b3b3|@/assets/images/home/andres.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/eeff6f8f-6c6f-41d8-8919-5114300c7746|@/assets/images/home/maria.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/8856fa4d-2e09-46dc-b89e-8ceabbf6c126|@/assets/images/home/cassione.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/aecfaedc-7590-46ca-a9fe-ec3e76bb2e87|@/assets/images/home/stephani.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/98cc0bd4-dd9e-46f6-a577-bd992a9416ad|@/assets/images/home/daniela.png|g
+s|https://cdn.builder.io/api/v1/image/assets/263652b75ad5437c9a09707160bacfa1/ac180bea-d4d6-4f08-bcb8-ec241ffd1104|@/assets/images/home/gloria.png|g

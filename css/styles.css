@@ -1,0 +1,386 @@
+body {
+    font-family: Gill Sans,Gill Sans MT,Calibri,sans-serif;
+}
+
+.navbar {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact_us {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    width: 525px;
+    color: #ffffff;
+}
+
+.give_your_child {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 41px;
+    color: #fafafa;
+    width: 503px;
+}
+
+.where_are_in {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #004c5a;
+    width: 503px;
+}
+
+.btn_cus {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #004c5a;
+}
+
+.we_are_open {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #004c5a;
+}
+
+.we_are_open span {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #4e9450;
+}
+
+.extended_drop_in {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #004c5a;
+}
+
+.give_the_opportunity {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #004c5a;
+    width: 503px;
+}
+
+.line {
+    background: #b2d13b;
+    height: 10px;
+    width: 100%;
+}
+
+.is_a_modern_day {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #004c5a;
+    width: 886px;
+}
+
+.thank_you {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+    width: 647px;
+}
+
+.request_a_tour {
+    left: calc(50% - 231px);
+    bottom: -37px;
+}
+
+footer p {
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #004c5a;
+}
+
+.slick-slide {
+    height: auto !important;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: calc(50% - 33px);
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {
+    opacity: .25;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -80px;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-prev:before {
+    content: url('https://www.tiniciti.com/wp-content/uploads/2022/07/arrow_l.png');
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: url('https://www.tiniciti.com/wp-content/uploads/2022/07/arrow_r.png');
+}
+
+.slick-next {
+    right: -25px;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.slick-next:before {
+    content: url('https://www.tiniciti.com/wp-content/uploads/2022/07/arrow_r.png');
+}
+
+[dir='rtl'] .slick-next:before {
+    content: url('https://www.tiniciti.com/wp-content/uploads/2022/07/arrow_l.png');
+}
+
+/* Dots */
+.slick-dotted.slick-slider {
+    /*  margin-bottom: 30px;*/
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 15px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 4px;
+    padding: 0;
+    cursor: pointer;
+    background: white;
+    border-radius: 50%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.slick-dots li.slick-active {
+    background: #a57983;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.slick-dots li button:hover,
+.slick-dots li button:focus {
+    outline: none;
+}
+
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {
+    opacity: 1;
+}
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+
+    /*content: '•';*/
+    text-align: center;
+    opacity: .25;
+    /*color: black;*/
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+
+@media screen and (min-width: 1800px) {
+}
+
+@media screen and (min-width: 1536px) {
+}
+
+@media screen and (max-width: 1535px) {
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 1279px) {
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (max-width: 1023px) {
+    .contact_us {
+        width: 100%;
+    }
+
+    .give_the_opportunity {
+        width: 100%;
+    }
+
+    .where_are_in {
+        width: 100%;
+    }
+
+    .is_a_modern_day {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+    .request_a_tour {
+        left: calc(50% - 145px);
+    }
+    .contact_us {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 37px;
+        width: 372px;
+        margin: 0 auto;
+    }
+
+    .child {
+        width: 100%;
+    }
+
+    .is_a_modern_day {
+        width: 286px;
+    }
+
+    .give_the_opportunity {
+        width: 327px;
+    }
+
+    .where_are_in {
+        text-align: center;
+        width: 281px;
+    }
+
+    .line {
+        margin: 0 auto;
+        width: calc(100% - 20px);
+    }
+
+    .thank_you {
+        width: 296px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (max-width: 639px) {
+}

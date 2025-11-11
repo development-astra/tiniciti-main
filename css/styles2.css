@@ -1,0 +1,321 @@
+@font-face {
+  font-family: "Gill Sans";
+  src: url("GillSans/Gill Sans Light.otf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("GillSans/Gill Sans.otf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("GillSans/Gill Sans Bold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("GillSans/Gill Sans Heavy.otf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gill Sans";
+  src: url("GillSans/GillSansUltraBold.ttf") format("truetype");
+  font-weight: 1000;
+  font-style: normal;
+} 
+
+.green-cloud {
+  background: url("images/v2/banner-b.png");
+  background-size: 100% !important;
+  background-position: top !important;
+}
+
+.modern_day {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #004c5a;
+  width: 500px;
+  max-width: 100%;
+}
+
+.give_the_opportunity {
+  max-width: 100%;
+}
+
+.lstItems p {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #004c5a;
+}
+
+.lstItems p strong {
+  font-weight: 700;
+}
+
+.circle-text {
+  width: 365px;
+  max-width: 100%;
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.slick-prev,
+.slick-next {
+  top: 110%;
+}
+
+.slick-next {
+  right: 120px;
+}
+
+.slick-prev {
+  left: 75px;
+}
+
+.floating-burble,
+.floating-burble2 {
+  max-width: 100%;
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  color: #004c5a;
+}
+.floating-burble {
+  width: 556px;
+}
+
+.burble {
+  background: url("../images/v5/rectangle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 15px 20px;
+  position: absolute;
+  top: 2em;
+  left: 6em;
+}
+
+.modern_day span {
+  font-size: 27px;
+}
+
+.v6_title {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #4e9450;
+}
+.box_pv6 {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #004c5a;
+}
+.resaltado {
+  background-color: #b2d13b;
+  padding: 10px 4px 3px;
+  border-radius: 3px;
+}
+
+.text-super {
+  font-family: "Gill Sans";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center; 
+  color: #004c5a;
+}
+
+@media screen and (min-width: 1800px) {
+  .green-cloud {
+    background-size: 1536px !important;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+}
+
+@media screen and (min-width: 1536px) {
+}
+
+@media screen and (max-width: 1535px) {
+  .slick-prev {
+    left: -25px;
+  }
+
+  .slick-next {
+    right: 25px;
+  }
+  .burble {
+    top: -7em;
+    left: 5em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+}
+
+@media screen and (max-width: 1279px) {
+  .burble {
+    width: 456px;
+    padding: 2px 20px;
+    background-size: contain;
+    top: -14em;
+    left: 1em;
+  }
+
+  .burble p {
+    width: 408px;
+    font-size: 23px;
+    line-height: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}
+
+@media screen and (max-width: 1023px) {
+  .burble {
+    background-size: contain;
+    top: -13em;
+    left: -1em;
+  }
+
+  .burble p {
+    font-size: 13px;
+    width: 279px;
+    line-height: 29px;
+  }
+
+  .circle-text {
+    width: 315px;
+    font-size: 23px;
+    line-height: 26px;
+  }
+  .slick-prev {
+    left: -25px;
+  }
+
+  .slick-next {
+    right: 25px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .btncus2link {
+    max-width: 100%;
+    background-size: contain;
+    padding-top: 10px !important;
+  }
+
+  .btn_cus {
+    font-family: "Gill Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (max-width: 767px) {
+  .v6_title {
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .box_pv6 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .green-cloud {
+    background: url("images/v2/banner-b.png");
+  }
+
+  .modern_day {
+    font-family: "Gill Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #004c5a;
+  }
+
+  .circle-text {
+    font-size: 20px;
+    line-height: 24px;
+    width: 256px;
+    left: calc(50% - 128px);
+  }
+
+  .modern_day {
+    width: 338px;
+  }
+
+  .we_are_open {
+    font-size: 33px;
+    line-height: 38px;
+  }
+
+  .extended_drop_in {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+  }
+
+  .give_the_opportunity {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .slick-prev {
+    left: 26px;
+  }
+
+  .slick-next {
+    right: 103px;
+  }
+}
+
+@media screen and (min-width: 640px) {
+}
+
+@media screen and (max-width: 639px) {
+  .circle-text {
+    font-size: 23px;
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tiniciti | small word, big experience</title>
+    <meta name="description" content="Tiniciti Preschool offers a unique bilingual learning experience in Miami. Our innovative approach combines play and education in a nurturing environment. Book a tour today!" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "5c4f578e-0b94-4216-a82a-7cadd3ce6c72",
+            apiHost: "https://tiniciti.com",
+        })
+    </script-->
+      <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+
+            var iframe = document.createElement('iframe');
+
+            iframe.src = 'https://scaledaycares.github.io/TinicitiPreschool/'
+
+            iframe.style.border = 'none';
+
+            iframe.style.position = 'fixed';
+
+            iframe.style.bottom = '0';
+
+            iframe.style.right = '0';
+
+            iframe.style.width = '100%';
+
+            iframe.style.height = '100%';
+
+            iframe.style.maxWidth = '500px';
+
+            iframe.style.maxHeight = '600px';
+
+            iframe.style.zIndex = '2147483647';
+
+            document.body.appendChild(iframe);
+
+
+            var toggleBtn = document.createElement('button');
+
+            toggleBtn.id = 'chatbot-toggle';
+
+            toggleBtn.style.position = 'fixed';
+
+            toggleBtn.style.bottom = '10px';
+
+            toggleBtn.style.right = '480px';
+
+            toggleBtn.style.backgroundColor = '#b0b464';
+
+            toggleBtn.style.color = 'white';
+
+            toggleBtn.style.border = 'none';
+
+            toggleBtn.style.borderRadius = '50%';
+
+            toggleBtn.style.width = '70px';
+
+            toggleBtn.style.height = '70px';
+
+            toggleBtn.style.display = 'flex';
+
+            toggleBtn.style.justifyContent = 'center';
+
+            toggleBtn.style.alignItems = 'center';
+
+            toggleBtn.style.cursor = 'pointer';
+
+            toggleBtn.style.zIndex = '2147483646';
+
+            var img = document.createElement('img');
+
+            img.src = 'https://cdn.glitch.global/b3ab09eb-1116-4be8-a7e0-1c7e203a9b89/24-242263_chat-speech-bubble-with-text-lines-comments-speech-removebg-preview.png?v=1691191893430';
+
+            img.style.width = '50px';
+
+            img.style.height = '50px';
+
+            toggleBtn.appendChild(img);
+
+            document.body.appendChild(toggleBtn);
+
+
+            var closeButton = document.createElement('button');
+
+            closeButton.id = 'chatbot-close';
+
+            closeButton.style.position = 'fixed';
+
+            closeButton.style.bottom = '420px';
+
+            closeButton.style.right = '35px';
+
+            closeButton.style.fontSize = '15px';
+
+            closeButton.style.width = '24px';
+
+            closeButton.style.height = '24px';
+
+            closeButton.style.backgroundColor = 'black';
+
+            closeButton.style.border = 'none';
+
+            closeButton.style.borderRadius = '50%';
+
+            closeButton.style.cursor = 'pointer';
+
+            closeButton.style.justifyContent = 'center';
+
+            closeButton.style.alignItems = 'center';
+
+            closeButton.style.zIndex = '2147483647';
+
+            closeButton.style.color = 'white';
+
+            closeButton.textContent = 'X';
+
+            closeButton.style.display = 'none';
+
+            document.body.appendChild(closeButton);
+
+
+            var chatbotIsOpen = localStorage.getItem('chatbotIsOpen');
+
+            if (chatbotIsOpen === null) {
+
+                chatbotIsOpen = true;
+
+            } else {
+
+                chatbotIsOpen = chatbotIsOpen === 'true';
+
+            }
+
+
+            function updateChatbotVisibility() {
+
+                if (chatbotIsOpen) {
+
+                    iframe.style.display = 'flex';
+
+                    closeButton.style.display = 'flex';
+
+                } else {
+
+                    iframe.style.display = 'none';
+
+                    closeButton.style.display = 'none';
+
+                }
+
+                localStorage.setItem('chatbotIsOpen', chatbotIsOpen);
+
+            }
+
+
+            function updateToggleBtnPosition() {
+
+                if (window.innerWidth <= 768) { // Mobile view threshold
+
+                    toggleBtn.style.right = '20px';
+
+                } else {
+
+                    toggleBtn.style.right = '480px';
+
+                }
+
+            }
+
+
+            toggleBtn.addEventListener('click', function() {
+
+                chatbotIsOpen = !chatbotIsOpen;
+
+                updateChatbotVisibility();
+
+            });
+
+
+            closeButton.addEventListener('click', function() {
+
+                chatbotIsOpen = false;
+
+                updateChatbotVisibility();
+
+            });
+
+
+            // Listen for custom events from the parent window
+
+            window.addEventListener('message', function(event) {
+
+                if (event.data && event.data.action) {
+
+                    console.log('Received message:', event.data.action);  // Log received messages
+
+                    if (event.data.action === 'openCalendly') {
+
+                        closeButton.style.display = 'none';
+
+                    } else if (event.data.action === 'closeCalendly') {
+
+                        closeButton.style.display = 'flex';
+
+                    } else if (event.data.action === 'closeChatbot') {
+
+                        chatbotIsOpen = false;
+
+                        updateChatbotVisibility();
+
+                    }
+
+                }
+
+            });
+
+
+            // Listen for window resize to update the toggle button position
+
+            window.addEventListener('resize', updateToggleBtnPosition);
+
+
+            // Initial check for toggle button position
+
+            updateToggleBtnPosition();
+
+            updateChatbotVisibility();
+
+        });
+
+        function resizeChatbot() {
+
+
+        if (window.innerWidth <= 400) {
+
+        iframe.style.width = '150%'; // Set to full width
+
+        iframe.style.height = '100%'; // Set to full height
+
+        iframe.style.right='-50px';
+
+        iframe.style.transform = 'scale(0.8)'; // Remove any scaling
+
+        closeButton.style.bottom = '445px'; // Adjust close button position
+
+        closeButton.style.right = '20px'; // Adjust close button position
+
+        closeButton.style.fontSize = '18px';
+
+        closeButton.style.width = '30px';
+
+        closeButton.style.height = '30px';
+
+                 
+
+
+        } else if(window.innerWidth <= 768){
+
+       
+
+          iframe.style.width = '110%';
+
+
+            iframe.style.transform = 'scale(0.85)';
+
+
+            iframe.style.transformOrigin = 'bottom right';
+
+
+            closeButton.style.bottom = '415px'; // Slightly lower close button
+
+
+            closeButton.style.right = '20px';
+
+
+            closeButton.style.fontSize = '18px';
+
+
+            closeButton.style.width = '17px';
+
+
+            closeButton.style.height = '17px';
+
+         
+
+        }else {
+
+
+            iframe.style.transform = 'scale(1)';
+
+            closeButton.style.bottom = '490px'; // Default position
+
+
+        }
+
+
+    }
+
+
+    </script>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
